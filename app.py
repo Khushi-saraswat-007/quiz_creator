@@ -107,4 +107,4 @@ with gr.Blocks() as demo:
     )
 
 # Launch with public shareable link
-demo.launch(share=True)
+demo.launch()
