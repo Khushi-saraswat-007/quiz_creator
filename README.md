@@ -1,14 +1,58 @@
----
-title: Quiz Creator
-emoji: 🔥
-colorFrom: green
-colorTo: gray
-sdk: gradio
-sdk_version: 5.43.1
-app_file: app.py
-pinned: false
-license: apache-2.0
-short_description: app that generates mcq and true/false from uplaoded pdf.
+# 📚 Quiz Creator  
+
+An AI-powered **Quiz Creator** that automatically generates quizzes from PDF files.  
+This tool helps **teachers, students, and learners** by converting study material into ready-to-use quizzes for practice and assessment. 🚀  
+
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+## ✨ Features  
+
+- 📄 **Upload PDF** → Extracts content from your PDF  
+- 🤖 **AI-Powered** → Uses Gemini API for quiz generation  
+- 📝 **Auto Quiz Creation** → Multiple choice, true/false, or short answer questions  
+- 🎯 **Interactive & Easy to Use** → Simple interface for everyone  
+- 🌐 **Hosted on Hugging Face Spaces**  
+
+---
+
+## 🖼️ Demo  
+
+👉 [Try it on Hugging Face](https://huggingface.co/spaces/khushisaraswat2007/quiz_creator)  
+
+---
+
+## ⚡ Tech Stack  
+
+- **Python** 🐍  
+- **Gradio** 🎨 (for frontend interface)  
+- **PyPDF2** 📄 (to read PDFs)  
+- **Google Gemini API** 🤖 (for quiz generation)  
+
+---
+
+## 📂 Project Structure
+
+quiz_creator/
+├── app.py              # Main application file
+├── requirements.txt    # Dependencies
+├── quiz_output.txt     # Example quiz in TXT
+├── quiz_output.pdf     # Example quiz in PDF
+└── README.md           # Documentation
+
+## 🚀 Getting Started  
+
+
+1. Clone the repo:  
+   
+   git clone https://github.com/Khushi-saraswat-007/quiz_creator.git
+   cd quiz_creator
+   
+3. Install dependencies:
+
+   pip install -r requirements.txt
+   
+3. Run locally:
+
+   python app.py
+   
+4. Run the app locally on your browser after starting the server.
