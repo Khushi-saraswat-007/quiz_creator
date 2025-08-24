@@ -32,7 +32,8 @@ This tool helps **teachers, students, and learners** by converting study materia
 
 ## 📂 Project Structure
 
-quiz_creator/
+quiz_creator
+
 ├── app.py              
 ├── requirements.txt    
 ├── quiz_output.txt     
