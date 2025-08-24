@@ -7,7 +7,7 @@ from reportlab.pdfgen import canvas
 from textwrap import wrap
 
 # 1. Configure Gemini API
-genai.configure(api_key="AIzaSyBD2NWu31Oj4IXI83AImrVmuKRb8c5uG7c")
+genai.configure(api_key="Your_api_key")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # 2. Function to extract text from PDF
