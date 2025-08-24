@@ -33,11 +33,11 @@ This tool helps **teachers, students, and learners** by converting study materia
 ## 📂 Project Structure
 
 quiz_creator/
-├── app.py              # Main application file
-├── requirements.txt    # Dependencies
-├── quiz_output.txt     # Example quiz in TXT
-├── quiz_output.pdf     # Example quiz in PDF
-└── README.md           # Documentation
+├── app.py              
+├── requirements.txt    
+├── quiz_output.txt     
+├── quiz_output.pdf     
+└── README.md           
 
 ## 🚀 Getting Started  
 
@@ -45,6 +45,7 @@ quiz_creator/
 1. Clone the repo:  
    
    git clone https://github.com/Khushi-saraswat-007/quiz_creator.git
+   
    cd quiz_creator
    
 3. Install dependencies:
