@@ -57,3 +57,30 @@ quiz_creator/
    python app.py
    
 4. Run the app locally on your browser after starting the server.
+
+
+🎯 Usage
+
+Open the app in your browser.
+
+Upload a PDF file (study notes, textbook, research paper, etc.).
+
+Wait for AI to process the content.
+
+Get your auto-generated quiz instantly.
+
+🤝 Contributing
+
+Contributions are welcome! If you’d like to improve this project:
+
+Fork the repo
+
+Create a new branch (feature-new)
+
+Commit your changes
+
+Submit a PR 🚀
+
+📜 License
+
+This project is licensed under the MIT License.
